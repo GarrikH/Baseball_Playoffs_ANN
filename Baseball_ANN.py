@@ -4,11 +4,9 @@
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
 from tensorflow.keras import backend
-from tensorflow.keras.optimizers import SGD
 from sklearn.model_selection import train_test_split
 from pandas import read_csv
 import numpy as np
-import tensorflow as tf
 
 filename = "baseball.csv"
 baseball_df = read_csv(filename)
